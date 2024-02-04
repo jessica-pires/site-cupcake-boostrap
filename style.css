@@ -19,7 +19,6 @@ body{
     margin: 10px 0 ;
     background-color: #FFD0EC;
     border-radius: 12px;
-
     box-shadow: 3px 3px 3px #ffd0ec8e;
 
 }
@@ -141,6 +140,28 @@ h2{
     color: #637A9F;
 
 }
+
+#rodape{
+    margin: 10px 0 ;
+    
+    background-color: #f9a7d8;
+    border-radius: 12px;
+    
+}
+
+#rodape li a,a{
+    text-decoration: none;
+    color: #637A9F;
+    font-weight: bold;
+
+    
+}
+
+
+
+
+
+
 /* celular */
 @media screen and (max-width:640px){
     .blog{
