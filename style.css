@@ -1,0 +1,178 @@
+body{
+    background-color: #F1EAFF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* .secao{
+    max-width: 1024px;
+    width: 100%;
+} */
+
+.navbar-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+}
+
+.navbar{
+    margin: 10px 0 ;
+    background-color: #FFD0EC;
+    border-radius: 12px;
+
+    box-shadow: 3px 3px 3px #ffd0ec8e;
+
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active {
+    background-color: #B4D4FF;
+    color: #fff;
+}
+
+
+
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.carousel-caption {
+    background: #b4d5ffa4;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+.carousel-caption p {
+    color: #fef0f5;
+}
+
+.blog{
+    text-align: center;
+    border: 1px solid #ccc;
+    /* box-shadow: 3px 3px 3px #ffd0ec8e; */
+    margin: 20px 0 ;
+    background-color: #FFD0EC;
+    /* background-color: #9ee2f5; */
+    border-radius: 12px;
+    padding: 15px 0 ;
+    box-shadow: 10px 5px 10px #eccddf ;
+    
+}
+h2{
+    padding: 10px 0;
+    font-weight: bold;
+    color: #637A9F;
+    font-size:2em ;
+    
+}
+
+.blog p{
+    color: #637A9F;
+    font-size:1.5em ;
+    
+}
+
+.produtos{
+    margin: 3rem;
+    text-align: center;
+    color: #637A9F;
+    font-size:1.5em ;
+    
+}
+.card{
+    padding-bottom:2em;
+}
+.card p{
+    color: #637A9F;
+}
+.card h4{
+    font-weight: bold;
+    font-size:1.5em ;
+    color: #637A9F;
+}
+
+.card-body a{
+    font-size: 1em;
+    background: #86E5FF;
+    border: none;
+    color: #637A9F;
+}
+.card-body a:hover{
+    background-color: #FFD0EC;
+    color: #637A9F;
+}
+
+.cadastro{
+    text-align: center;
+    margin: 20px 0 ;
+    padding: 15px 0 ;
+     
+}
+
+.cadastro h2{
+    margin: auto;
+    border-top: 1px solid  #637A9F; 
+    width: 70%;
+}
+.cadastro p{
+    color: #637A9F;
+    font-size:1.5em ;
+    
+}
+.cadastro button{
+    
+    background-color:  #f9bbe0;
+    border: none;
+    color: #637A9F;
+    font-size: 2em;
+    box-shadow: 10px 5px 10px #eccddf ;
+}
+
+.cadastro button:hover{
+    background-color: #f9a7d8;
+    color: #637A9F;
+
+}
+/* celular */
+@media screen and (max-width:640px){
+    .blog{
+        /* margin: 10px 5px; */
+    
+        
+    }
+
+    h2{
+        padding: 5px 0;
+        font-size:1.5em ;
+        
+    }
+    .card h4{
+        font-weight: bold;
+        font-size:1.0em ;
+        
+    }
+
+    .blog p{
+        color: #637A9F;
+        font-size:1em;
+        margin: auto;
+        
+    }
+
+    .card{
+        margin: 1em 0;
+        width: 100%;
+        
+    }
+    /* column-gap: 1%;
+    row-gap: 5%;
+    padding: 1em; */
+}

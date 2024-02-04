@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- cabecalho -->
+    <div class="secao">
+        <header id="cabecalho">
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div>
+                        <a class="navbar-brand" href="#">
+                            <img src="img/cupcake.png"alt="logo"><span>CupCake strap</span>
+                        </a>
+                    </div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pedidos Online</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- slide fotos -->
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="1000" class="carousel-item active" >
+                    <img class="d-block w-100" src="img/cakes-3257019_1280.jpg"></div>
+                    <div class="carousel-caption">
+                        <h3>Bem vindos a loja Cupcake</h3>
+                    </div>
+                <div data-bs-interval="1000" class="carousel-item" >
+                    <img class="d-block w-100" src="img/cupcakes-5116009_1280.jpg">
+                </div>
+                <div class="carousel-caption">
+                    <h3>Desde 2009</h3>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item" >
+                    <img class="d-block w-100" src="img/muffins-2225091_1280.jpg" alt="">
+                </div>
+                <div class="carousel-caption">
+                    <h3>Voce vai gostar</h3>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item" >
+                    <img class="d-block  w-100" src="img/cupcakes-2285209_1280.jpg">
+                </div>
+                <div class="carousel-caption">
+                    <h3>Ingredientes selecionados</h3>
+                </div>
+        
+            <button data-bs-target="#carousel-exemplo"  data-bs-slide="prev"  class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo"  data-bs-slide="next"  class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+        <section class="blog">
+            <h2>Feitos com dedicação, para voce!</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quod? Minus quidem eveniet provident aperiam neque ea unde at, maxime voluptas quam perferendis quia quas natus consequuntur deserunt doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum recusandae iusto facere fugit sed mollitia consequuntur explicabo! Dignissimos impedit eligendi omnis pariatur perferendis minus asperiores, commodi ea quod. Enim, minima! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat voluptatem eveniet, pariatur consectetur quibusdam quo reiciendis. Est, tempora. Recusandae animi, dolor tempora similique nihil debitis eligendi corrupti delectus. Dolorem, praesentium. </p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis repudiandae tenetur quaerat similique corporis fugiat minus, alias corrupti nemo quisquam. Eius enim voluptatem accusantium numquam quia officiis, cumque excepturi? Id.</p>
+        </section>
+        <section class="produtos">
+            <h2>Nossos produtos</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- inicio do card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="img/card-teste.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Cup Card</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sapiente velit voluptatibus modi veritatis expedita, eligendi deleniti quam provident.</p>
+                                <a href="#" class="btn btn-primary">Compre aqui</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="img/card2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Cake css</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sapiente velit voluptatibus modi veritatis expedita, eligendi deleniti quam provident.</p>
+                                <a href="#" class="btn btn-primary">Compre aqui</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img src="img/card3.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">CupCake</h4>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sapiente velit voluptatibus modi veritatis expedita, eligendi deleniti quam provident</p>
+                                <a href="#" class="btn btn-primary">Compre aqui</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <!-- trecho modal -->
+<div class="cadastro">
+    <h2>Faça sua encomenda é fácil</h2>
+    <p>Preencha o formulário e entraremos em contato com voce</p>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadastro-modal">Faça aqui sua encomenda</button>
+</div>
+
+<!-- Modal de cadastro -->
+<div class="modal" id="cadastro-modal" data-bs-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cadastro de Novidades</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Formulário de cadastro -->
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Telefone:</label>
+                        <input type="tel" class="form-control" id="email" placeholder="(00)00000-0000">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
