@@ -64,6 +64,7 @@ body{
     padding: 15px 0 ;
     box-shadow: 10px 5px 10px #eccddf ;
     
+    
 }
 h2{
     padding: 10px 0;
@@ -76,6 +77,9 @@ h2{
 .blog p{
     color: #637A9F;
     font-size:1.5em ;
+    padding: 0 4em;
+
+    
     
 }
 
